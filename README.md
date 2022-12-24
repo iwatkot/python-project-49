@@ -12,3 +12,6 @@
 
 ## brain-prog script example
 [![asciicast](https://asciinema.org/a/O15rRKXYttGvRbqZ7y2Bu1UVy.svg)](https://asciinema.org/a/O15rRKXYttGvRbqZ7y2Bu1UVy)
+
+## brain-prime script example
+[![asciicast](https://asciinema.org/a/AIRLkG5FtBEYOdZI2wKN5KZux.svg)](https://asciinema.org/a/AIRLkG5FtBEYOdZI2wKN5KZux)

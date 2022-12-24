@@ -3,6 +3,7 @@ import prompt
 import operator
 
 from random import randint, choice
+from math import gcd
 
 # Functions which using game with type 'calc'.
 operator_functions = {
@@ -49,4 +50,9 @@ def questions_and_answers(game_type):
         ab = choice(list(operator_functions))
         question = str(a) + ' ' + str(ab) + ' ' + str(b)
         correct_answer = str(operator_functions[ab](a, b))
+    elif game_type == 'gcd':
+        a = randint(left_limit, right_limit)
+        b = randint(left_limit, right_limit)
+        question = str(a) + ' ' + str(b)
+        correct_answer = str(gcd(a, b))
     return question, correct_answer

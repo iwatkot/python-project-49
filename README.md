@@ -9,3 +9,6 @@
 
 ## brain-gcd script example
 [![asciicast](https://asciinema.org/a/soeOPKiBdALKJXyMcGM4QflW7.svg)](https://asciinema.org/a/soeOPKiBdALKJXyMcGM4QflW7)
+
+## brain-prog script example
+[![asciicast](https://asciinema.org/a/O15rRKXYttGvRbqZ7y2Bu1UVy.svg)](https://asciinema.org/a/O15rRKXYttGvRbqZ7y2Bu1UVy)

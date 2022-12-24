@@ -16,6 +16,9 @@ operator_functions = {
 # randint(left_limit, right_limit) - range for random numbers.
 left_limit, right_limit = 1, 20
 
+# Progression properties (minimum and maximum lenght.)
+minimum_lenght, maximum_lenght = 5, 10
+
 
 def games(game_type, name):
     game_flag = True
@@ -55,4 +58,17 @@ def questions_and_answers(game_type):
         b = randint(left_limit, right_limit)
         question = str(a) + ' ' + str(b)
         correct_answer = str(gcd(a, b))
+    elif game_type == 'prog':
+        step = randint(left_limit, right_limit)
+        lenght = randint(minimum_lenght, maximum_lenght)
+        starting_number = randint(left_limit, right_limit)
+        secret_index = randint(0, lenght - 1)
+        question = ''
+        for i in range(lenght):
+            if i != secret_index:
+                question += str(starting_number + i * step) + ' '
+            elif i == secret_index:
+                question += '.. '
+                correct_answer = str(starting_number + i * step)
+        question.rstrip()
     return question, correct_answer
